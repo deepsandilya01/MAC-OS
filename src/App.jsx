@@ -4,6 +4,7 @@ import "./app.scss";
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
 import MacWindow from "./windows/MacWindow";
+import Github from "./windows/Github";
 
 const App = () => {
   return (
@@ -11,9 +12,7 @@ const App = () => {
       <Nav />
       <Dock />
 
-      <MacWindow>
-        <h1>Hello</h1>
-      </MacWindow>
+      <Github />
     </main>
   );
 };
